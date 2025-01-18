@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 48,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 49,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 50,
+      "content": "[MASK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": {
+    "type": "Sequence",
+    "normalizers": []
+  },
+  "pre_tokenizer": {
+    "type": "WhitespaceSplit"
+  },
+  "post_processor": null,
+  "decoder": {
+    "type": "WordPiece",
+    "prefix": "##",
+    "cleanup": true
+  },
+  "model": {
+    "type": "WordLevel",
+    "vocab": {
+      "<boc>": 0,
+      "<eoc>": 1,
+      "<sepc>": 2,
+      "<bog>": 3,
+      "<eog>": 4,
+      "<sepg>": 5,
+      "IDX_0": 6,
+      "IDX_1": 7,
+      "IDX_2": 8,
+      "IDX_3": 9,
+      "IDX_4": 10,
+      "IDX_5": 11,
+      "IDX_6": 12,
+      "IDX_7": 13,
+      "IDX_8": 14,
+      "IDX_9": 15,
+      "IDX_10": 16,
+      "IDX_11": 17,
+      "IDX_12": 18,
+      "IDX_13": 19,
+      "IDX_14": 20,
+      "IDX_15": 21,
+      "IDX_16": 22,
+      "IDX_17": 23,
+      "IDX_18": 24,
+      "IDX_19": 25,
+      "IDX_20": 26,
+      "IDX_21": 27,
+      "IDX_22": 28,
+      "IDX_23": 29,
+      "IDX_24": 30,
+      "IDX_25": 31,
+      "IDX_26": 32,
+      "IDX_27": 33,
+      "IDX_28": 34,
+      "IDX_29": 35,
+      "ATOM_C": 36,
+      "ATOM_N": 37,
+      "ATOM_O": 38,
+      "ATOM_F": 39,
+      "ATOM_S": 40,
+      "ATOM_Cl": 41,
+      "ATOM_Br": 42,
+      "ATOM_H": 43,
+      "BOND_SINGLE": 44,
+      "BOND_DOUBLE": 45,
+      "BOND_TRIPLE": 46,
+      "BOND_AROMATIC": 47
+    },
+    "unk_token": "[UNK]"
+  }
+}
